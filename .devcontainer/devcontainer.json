@@ -1,0 +1,9 @@
+{
+  "name": "NestJS Dev Container",
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:18",
+  "features": {
+    "ghcr.io/devcontainers/features/mysql:1": {}
+  },
+  "postCreateCommand": "npm install",
+  "forwardPorts": [3000, 3306]
+}
